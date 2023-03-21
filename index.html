@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Larissa Souza" />
+  <title>// nokoSocial</title>
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- ICONSCOUT CDN -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css" />
+</head>
+
+<body>
+  <!-- =============== NAVBAR =============== -->
+  <nav>
+    <div class="container">
+      <h2 class="log">
+        nokoSocial
+      </h2>
+
+      <div class="searchBar">
+        <i class="uil uil-search">
+          <input type="search" name="" id="" placeholder="Search for creators inspirations and project">
+        </i>
+      </div>
+
+      <div class="create">
+        <label class="btn btnPrimary" for="createPost">
+          Create
+        </label>
+
+        <div class="profilePhoto">
+          <img src="assets/img/profile-1.jpg" alt="Profile Image">
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- =============== MAIN =============== -->
+  <main>
+    <div class="container">
+
+      <!-- =============== LEFT =============== -->
+      <div class="left">
+        <a href="https://www.instagram.com/_larissa.a.souza/" class="profile">
+          <div class="profilePhoto">
+            <img src="assets/img/profile-1.jpg" alt="Profile Image">
+          </div>
+
+          <div class="handle">
+            <h4>Lary Souza</h4>
+            <p class="textMuted">
+              @_lary
+            </p>
+          </div>
+        </a>
+
+        <!-- =============== SIDEBAR =============== -->
+        <div class="sideBar">
+          <a href="" class="menuItem active">
+            <span> <i class="uil uil-home"></i> </span>
+            <h3>Home </h3>
+          </a>
+          <a href="" class="menuItem">
+            <span> <i class="uil uil-compass"></i> </span>
+            <h3>Explore </h3>
+          </a>
+
+          <a href="" class="menuItem" id="notifications">
+            <span>
+              <i class="uil uil-bell">
+                <small class="notificationCount">9+</small>
+              </i>
+            </span>
+            <h3>Notifications </h3>
+
+            <!-- =============== NOTIFICATIONS POPUP =============== -->
+            <!-- <div class="notificationsPopup">
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-2.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Kat Fernandes</b> and <b>304 others</b> liked your post
+                  <small class="textMuted">4 MINUTES AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-3.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Maicon Gois</b> commented on a post you are tagged in
+                  <small class="textMuted">1 HOUR AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-4.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Jenny Porzelt</b> commented on a post you are tagged in
+                  <small class="textMuted">5 HOURS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-5.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Isa Nascimento</b> commented on your post
+                  <small class="textMuted">1 DAY AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-6.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Patty Araújo</b> send you a message
+                  <small class="textMuted">2 DAYS AGO</small>
+                </div>
+              </div>
+
+              <div>
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-7.jpg" alt="">
+                </div>
+
+                <div class="notificationsBody">
+                  <b>Mauricio Sodré</b> accepted your friend request
+                  <small class="textMuted">1 WEEK AGO</small>
+                </div>
+              </div>
+            </div> -->
+            <!-- =============== END NOTIFICATIONS POPUP =============== -->
+
+          </a>
+
+          <a href="" class="menuItem" id="messagesNotifications">
+            <span>
+              <i class="uil uil-envelope-alt">
+                <small class="notificationCount">6</small>
+              </i>
+            </span>
+            <h3>Messages </h3>
+          </a>
+
+          <a href="" class="menuItem">
+            <span> <i class="uil uil-bookmark"></i> </span>
+            <h3>Bookmarks </h3>
+          </a>
+
+          <a href="" class="menuItem">
+            <span> <i class="uil uil-chart-line"></i> </span>
+            <h3>Analytics</h3>
+          </a>
+
+          <a href="" class="menuItem">
+            <span> <i class="uil uil-palette"></i> </span>
+            <h3>Theme </h3>
+          </a>
+
+          <a href="" class="menuItem">
+            <span> <i class="uil uil-setting"></i> </span>
+            <h3>Settings </h3>
+          </a>
+        </div>
+
+        <!-- =============== END OF SIDEBAR ============== -->
+        <label for="createPost" class="btn btnPrimary">
+          Create Post
+        </label>
+
+      </div>
+      <!-- =============== END OF LEFT =============== -->
+
+
+      <!-- =============== MIDDLE =============== -->
+      <div class="middle">
+        <!-- =============== STORIES =============== -->
+        <div class="stories">
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-1.jpg">
+            </div>
+            <p class="name">Your Story</p>
+          </div>
+
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-9.jpg">
+            </div>
+            <p class="name">Lilla James</p>
+          </div>
+
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-10.jpg">
+            </div>
+            <p class="name">Winnie Hale</p>
+          </div>
+
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-11.jpg">
+            </div>
+            <p class="name">Daniel Bale</p>
+          </div>
+
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-12.jpg">
+            </div>
+            <p class="name">Jane Doe</p>
+          </div>
+
+          <div class="story">
+            <div class="profilePhoto">
+              <img src="assets/img/profile-15.jpg">
+            </div>
+            <p class="name">Tina White</p>
+          </div>
+        </div>
+        <!-- =============== END OF STORIES =============== -->
+
+        <form class="createPost">
+          <div class="profilePhoto">
+            <img src="assets/img/profile-1.jpg" alt="Profile Image">
+          </div>
+          <input type="text" id="createPost" placeholder="What'a on your mind, Lary?">
+          <input type="submit" class="btn btnPrimary" value="Post">
+        </form>
+
+
+        <!-- =============== FEEDS ============== -->
+        <div class="feeds">
+
+          <!-- =============== FEED LANA ============== -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-12.jpg" alt="Profile Image">
+                </div>
+
+                <div class="ingo">
+                  <h3>Lana Rose</h3>
+                  <small>Dubai, 15 MINUTES AGO</small>
+                </div>
+
+                <div class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo">
+              <img src="assets/img/feed-1.jpg" alt="Feed Image">
+            </div>
+
+            <div class="actionButton">
+              <div class="interactionsButtons">
+                <span>
+                  <i class="uil uil-heart"></i>
+                </span>
+                <span>
+                  <i class="uil uil-comment-dots"></i>
+                </span>
+                <span>
+                  <i class="uil uil-share-alt"></i>
+                </span>
+              </div>
+
+              <div class="bookmark">
+                <span>
+                  <i class="uil uil-bookmark-full"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="likedBy">
+              <span><img src="assets/img/profile-10.jpg" alt="Profile Image"></span>
+              <span><img src="assets/img/profile-4.jpg" alt="Profile Image"></span>
+              <span><img src="assets/img/profile-15.jpg" alt="Profile Image"></span>
+              <p>Liked by <b>Nath Oliveira</b> and <b>2.326 others</b></p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Lana Rose</b> Lorem Impsum dolor sit quisquam eius.
+                <span class="hashTag">#lifestyle</span>
+              </p>
+            </div>
+
+            <div class="textMuted">
+              View all 321 comments
+            </div>
+
+          </div>
+
+          <!-- =============== FEED JANE ============== -->
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profilePhoto">
+                  <img src="assets/img/profile-12.jpg" alt="Profile Image">
+                </div>
+
+                <div class="ingo">
+                  <h3>Jane Doe</h3>
+                  <small>Dubai, 1 HOUR AGO</small>
+                </div>
+
+                <div class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo">
+              <img src="assets/img/feed-3.jpg" alt="Feed Image">
+            </div>
+
+            <div class="actionButton">
+              <div class="interactionsButtons">
+                <span>
+                  <i class="uil uil-heart"></i>
+                </span>
+                <span>
+                  <i class="uil uil-comment-dots"></i>
+                </span>
+                <span>
+                  <i class="uil uil-share-alt"></i>
+                </span>
+              </div>
+
+              <div class="bookmark">
+                <span>
+                  <i class="uil uil-bookmark-full"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="likedBy">
+              <span><img src="assets/img/profile-10.jpg" alt="Profile Image"></span>
+              <span><img src="assets/img/profile-4.jpg" alt="Profile Image"></span>
+              <span><img src="assets/img/profile-15.jpg" alt="Profile Image"></span>
+              <p>Liked by <b>Nath Oliveira</b> and <b>2.326 others</b></p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Lana Rose</b> Lorem Impsum dolor sit quisquam eius.
+                <span class="hashTag">#lifestyle</span>
+              </p>
+            </div>
+
+            <div class="textMuted">
+              View all 321 comments
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <!-- =============== RIGHT =============== -->
+      <div class="right">
+
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
