@@ -10,7 +10,7 @@
 
 ## ⚙️ Deploy- Vercel
 
-<dreamSocial.vercel.app>
+<https://dreamSocial.vercel.app>
 
 ## ➡️ Etapas para executar esse projeto em sua máquina:
 
